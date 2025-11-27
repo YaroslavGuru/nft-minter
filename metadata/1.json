@@ -1,0 +1,11 @@
+{
+  "name": "Day 7 Artifact #1",
+  "description": "Genesis NFT from the Day 7 delivery mint set.",
+  "image": "sample.png",
+  "attributes": [
+    { "trait_type": "Tier", "value": "Genesis" },
+    { "trait_type": "Day", "value": "7" },
+    { "trait_type": "Edition", "value": "1" }
+  ]
+}
+

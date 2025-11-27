@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+cache/
+artifacts/
+coverage/
+deployments/*.json
+scripts/output/
+typechain-types/
+package-lock.json
+
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+frontend/package-lock.json
+

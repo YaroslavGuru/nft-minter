@@ -1,0 +1,41 @@
+{
+  "name": "nft-minter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "lint": "eslint . --ext .ts",
+    "generate:merkle": "ts-node scripts/generateMerkle.ts",
+    "deploy": "ts-node scripts/deployNFT.ts --network localhost",
+    "upload:ipfs": "ts-node scripts/uploadToIPFS.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.30",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "glob": "^10.4.5",
+    "hardhat": "^2.22.5",
+    "solidity-coverage": "^0.8.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@pinata/sdk": "^2.1.0",
+    "axios": "^1.6.8",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "web3.storage": "^4.5.0"
+  }
+}
+
